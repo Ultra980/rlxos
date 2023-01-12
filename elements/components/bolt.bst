@@ -5,7 +5,7 @@ sources:
   track: master
   url: github:itsmanjeet/bolt.git
 
-  ref: 2edefa81fdf70c2be9915768959f5326e1767d40
+  ref: 2030873ee3eed9e9adad4e12c4f490e25cfcbc26
 - kind: go-vendor
   ref: 238b9e677bd8ba523838cf048f3a2bbe21dc071a17a4f258aafe8d61a2dd2f57
 build-depends:
