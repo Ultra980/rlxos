@@ -5,7 +5,7 @@ sources:
   url: gnome:gnome-tweaks.git
   track: master
 
-  ref: 42.beta-24-g43f547a8b6ec171806cfdf94edacb47853a1bb63
+  ref: 42.beta-29-g060bb924d087d96592ed565ddf8fc584d361aa90
 build-depends:
 - freedesktop-sdk.bst:public-stacks/buildsystem-meson.bst
 

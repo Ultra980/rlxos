@@ -2,8 +2,8 @@ kind: meson
 
 sources:
 - kind: tar
-  url: gnome_downloads:gnome-remote-desktop/43/gnome-remote-desktop-43.1.tar.xz
-  ref: bd847c3ca77360995334462cd469e45a12479f11c0c48e965028ed5cb807a5b2
+  url: gnome_downloads:gnome-remote-desktop/43/gnome-remote-desktop-43.3.tar.xz
+  ref: 11d451d1fde44f1809ebf61aff4bea5f9ef4fdc02359a89647f6e9e7d45429ac
 build-depends:
 - components/nv-codec-headers.bst
 - freedesktop-sdk.bst:components/systemd.bst

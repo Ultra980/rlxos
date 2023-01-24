@@ -38,9 +38,7 @@ sources:
   directory: src/github.com/containers/podman
   track: main
   track-extra:
-  - v4.3
-  # Attempt to predict the next branchpoint.
-  - v4.4
+  - v4.3.1
   exclude:
   - "*rc*"
-  ref: v4.3.1-0-g814b7b003cc630bf6ab188274706c383f9fb9915
+  ref: v2.1.0-8498-gce504bbfe3d9fed8073160bbb7f54a1a259ec662

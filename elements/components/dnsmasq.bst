@@ -2,7 +2,7 @@ kind: make
 
 sources:
 - kind: tar
-  url: thekelleys:dnsmasq/dnsmasq-2.87.tar.xz
+  url: thekelleys:dnsmasq/dnsmasq-2.88.tar.xz
 
   ref: 0228c0364a7f2356fd7e7f1549937cbf3099a78d3b2eb1ba5bb0c31e2b89de7a
 depends:
