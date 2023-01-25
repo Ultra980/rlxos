@@ -6,7 +6,7 @@ sources:
   track: master
   directory: vosk-api
 
-  ref: go/v0.3.43-20-g4c720974788cfe3b985b2bf228899cba265afde4
+  ref: go/v0.3.45-4-gfff40ce1a1f1b921272a184acfd0c21350750789
 - kind: git_tag
   url: https://github.com/xianyi/OpenBLAS.git
   track: v0.3.20
@@ -59,7 +59,8 @@ config:
     USE_THREAD='0' all
   - make -C OpenBLAS PREFIX='%{build-root}/OpenBLAS/install' install
 
-  - CFLAGS+=' -Wno-error=format-security -fcommon' cmake -B build-clapack -S clapack -Wno-dev
+  - CFLAGS+=' -Wno-error=format-security -fcommon' cmake -B build-clapack -S clapack
+    -Wno-dev
   - make -C build-clapack
 
   - |

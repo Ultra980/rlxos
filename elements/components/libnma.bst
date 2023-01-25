@@ -2,8 +2,8 @@ kind: meson
 
 sources:
 - kind: tar
-  url: gnome_downloads:libnma/1.10/libnma-1.10.2.tar.xz
-  ref: 4fc3d9c404b7b13303d9394f96961c5298d71afa9f1fa7af5e4f0f6e842a0940
+  url: gnome_downloads:libnma/1.10/libnma-1.10.6.tar.xz
+  ref: 53a6fb2b190ad37c5986caed3e98bede7c3c602399ee4f93c8fc054303d76dab
 build-depends:
 - components/gobject-introspection.bst
 - components/gtk-doc.bst

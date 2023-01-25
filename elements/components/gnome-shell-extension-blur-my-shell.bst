@@ -18,4 +18,4 @@ sources:
 - kind: git_tag
   url: github:aunetx/blur-my-shell.git
   track: master
-  ref: v44-3-g63b5e33fbfaabe2b955aadfeecf8d05a9a848cec
+  ref: v44-29-g013fdcbbe47161bdfc018a6f6172f9096cf29ed9
