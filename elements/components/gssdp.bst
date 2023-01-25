@@ -18,3 +18,4 @@ depends:
 variables:
   meson-local: >-
     -Dsniffer=false
+    -Dmanpages=false
