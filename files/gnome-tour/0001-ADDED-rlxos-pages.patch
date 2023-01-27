@@ -2254,11 +2254,11 @@ index 6cd2016..a413cd6 100644
 +        <child>
 +          <object class="ImagePageWidget">
 +            <property name="resource-uri">/org/gnome/Tour/flatpak.svg</property>
-+            <property name="head" translatable="yes">Install Must have apps</property>
-+            <property name="body" translatable="yes">Click 'Install' to install the collection of apps for every day usage</property>
++            <property name="head" translatable="yes">Software Center</property>
++            <property name="body" translatable="yes">Use 'software-center' to install applications</property>
 +            <child>
 +              <object class="GtkButton" id="apps_button">
-+                <property name="label">Install</property>
++                <property name="label">Open Software Center</property>
 +                <property name="halign">center</property>
 +                <style>
 +                  <class name="suggested-action"/>
@@ -2270,11 +2270,11 @@ index 6cd2016..a413cd6 100644
 +        <child>
 +          <object class="ImagePageWidget">
 +            <property name="resource-uri">/org/gnome/Tour/distro.svg</property>
-+            <property name="head" translatable="yes">Integrate distro</property>
-+            <property name="body" translatable="yes">Click 'Install' to add extra distro to more features</property>
++            <property name="head" translatable="yes">Sub System</property>
++            <property name="body" translatable="yes">Enjoy best features of any linux distribution</property>
 +            <child>
 +              <object class="GtkButton" id="distro_button">
-+                <property name="label">Install</property>
++                <property name="label">Install Ubuntu</property>
 +                <property name="halign">center</property>
 +                <style>
 +                  <class name="suggested-action"/>
