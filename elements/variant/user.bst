@@ -22,6 +22,7 @@ depends:
 - components/gnome-bluetooth.bst
 - components/gnome-control-center.bst
 - components/gnome-desktop.bst
+- components/gnome-firmware.bst
 - components/gnome-initial-setup.bst
 - components/gnome-keyring.bst
 - components/gnome-menus.bst
