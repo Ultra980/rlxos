@@ -20,6 +20,7 @@ depends:
 - components/gdm.bst
 - components/gnome-backgrounds.bst
 - components/gnome-bluetooth.bst
+- components/gnome-boxes.bst
 - components/gnome-control-center.bst
 - components/gnome-desktop.bst
 - components/gnome-firmware.bst

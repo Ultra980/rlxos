@@ -3,7 +3,6 @@ depends:
 - components/dconf-editor.bst
 - components/devhelp.bst
 - components/d-spy.bst
-- components/gnome-boxes.bst
 - components/gnome-builder.bst
 - components/sysprof-app.bst
 - freedesktop-sdk.bst:components/autoconf-archive.bst
