@@ -103,6 +103,7 @@ depends:
 - freedesktop-sdk.bst:components/usbutils.bst
 - freedesktop-sdk.bst:components/pciutils.bst
 - freedesktop-sdk.bst:components/procps.bst
+- freedesktop-sdk.bst:components/which.bst
 - freedesktop-sdk.bst:components/hosts.bst
 - freedesktop-sdk.bst:components/iana-config.bst
 - freedesktop-sdk.bst:components/locales.bst

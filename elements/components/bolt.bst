@@ -17,7 +17,7 @@ depends:
 - freedesktop-sdk.bst:bootstrap-import.bst
 - components/vosk-api.bst
 
-config:
-  install-commands:
-    (>):
-    - install -Dm0644 -t %{install-root}%{sysconfdir}/fish/conf.d command_not_found.fish
+# config:
+#   install-commands:
+#     (>):
+#     - install -Dm0644 -t %{install-root}%{sysconfdir}/fish/conf.d command_not_found.fish
