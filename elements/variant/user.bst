@@ -20,8 +20,10 @@ depends:
 - components/gdm.bst
 - components/gnome-backgrounds.bst
 - components/gnome-bluetooth.bst
+- components/gnome-boxes.bst
 - components/gnome-control-center.bst
 - components/gnome-desktop.bst
+- components/gnome-firmware.bst
 - components/gnome-initial-setup.bst
 - components/gnome-keyring.bst
 - components/gnome-menus.bst
@@ -101,6 +103,7 @@ depends:
 - freedesktop-sdk.bst:components/usbutils.bst
 - freedesktop-sdk.bst:components/pciutils.bst
 - freedesktop-sdk.bst:components/procps.bst
+- freedesktop-sdk.bst:components/which.bst
 - freedesktop-sdk.bst:components/hosts.bst
 - freedesktop-sdk.bst:components/iana-config.bst
 - freedesktop-sdk.bst:components/locales.bst

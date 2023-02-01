@@ -16,7 +16,7 @@ build-depends:
 depends:
 - components/osinfo-db-tools.bst
 - components/glib.bst
-- components/libsoup-2.4.bst
+- components/libsoup.bst
 - freedesktop-sdk.bst:bootstrap-import.bst
 variables:
   meson-local: >-
