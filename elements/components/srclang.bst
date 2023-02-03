@@ -1,4 +1,4 @@
-kind: cmake
+kind: manual
 sources:
 - kind: git_tag
   track: master
@@ -13,3 +13,8 @@ depends:
 - freedesktop-sdk.bst:components/curl.bst
 - components/boost.bst
 
+config:
+  build-commands:
+  - make
+  install-commands:
+  - install -Dm644 -t "%{install-root}%{bindir}" srclang
