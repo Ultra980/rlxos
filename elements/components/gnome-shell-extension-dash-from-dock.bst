@@ -10,6 +10,9 @@ sources:
   track: main
   ref: ea2d31416cf17bd586362a8cdd1989dc0213a299
 
+- kind: patch
+  path: files/gnome-shell-extensions/dash-from-dock/0001-rlxos-default-configurations.patch
+
 config:
   install-commands:
     (>):
