@@ -282,6 +282,8 @@ sources:
     sha: 712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f
 - kind: patch
   path: files/gnome-tour/0001-rlxos-specific-changes.patch
+- kind: patch
+  path: files/gnome-tour/0002-update-interface.patch
 
   ref:
   - name: aho-corasick

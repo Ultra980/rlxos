@@ -1,10 +1,10 @@
-kind: cmake
+kind: manual
 sources:
 - kind: git_tag
   track: master
   url: github:itsManjeet/srclang.git
 
-  ref: cde825913a9c08ae0c7b0c24e5406b5c2be393b9
+  ref: b54c8d065a7aa3f63274225cad99165472f6aa09
 build-depends:
 - freedesktop-sdk.bst:public-stacks/buildsystem-cmake.bst
 
@@ -13,3 +13,8 @@ depends:
 - freedesktop-sdk.bst:components/curl.bst
 - components/boost.bst
 
+config:
+  build-commands:
+  - make
+  install-commands:
+  - install -Dm644 -t "%{install-root}%{bindir}" srclang

@@ -5,7 +5,7 @@ sources:
   track: master
   url: github:itsmanjeet/bolt.git
 
-  ref: 2e3bd5de6321726425456e74ca1a0466b477adcb
+  ref: 455dddfd706f8437d69f87b885e6ee6b117ea746
 
 - kind: local
   path: files/bolt/command_not_found.fish

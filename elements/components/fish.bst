@@ -19,7 +19,7 @@ variables:
 public:
   bst:
     integration-commands:
-    - echo %{bindir}/fish >> /etc/shells
+    - echo /bin/fish >> /etc/shells
 
 # Do not display the .desktop file in the launcher.
 # The reason it was added was for appimage builds, not cause its a critical part of the software.
