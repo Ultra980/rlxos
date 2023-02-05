@@ -4,17 +4,16 @@ sources:
   track: master
   url: github:itsManjeet/srclang.git
 
-  ref: b54c8d065a7aa3f63274225cad99165472f6aa09
+  ref: bd912af5b7ee7e508f95ef4af23101a85ec6390e
 build-depends:
-- freedesktop-sdk.bst:public-stacks/buildsystem-cmake.bst
+- freedesktop-sdk.bst:public-stacks/buildsystem-autotools.bst
 
 depends:
 - freedesktop-sdk.bst:bootstrap-import.bst
-- freedesktop-sdk.bst:components/curl.bst
-- components/boost.bst
 
 config:
   build-commands:
   - make
   install-commands:
-  - install -Dm644 -t "%{install-root}%{bindir}" srclang
+  - install -Dm0755 -t "%{install-root}%{bindir}" srclang
+  - install -Dm0644 -t "%{install-root}/usr/lib/srclang/" modules/std.src

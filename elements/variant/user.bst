@@ -13,7 +13,6 @@ depends:
 - components/distrobox.bst
 - components/fprintd.bst
 - components/thermald.bst
-- components/srclang.bst
 - components/bolt.bst
 - components/appimaged.bst
 - components/android-udev-rules.bst
