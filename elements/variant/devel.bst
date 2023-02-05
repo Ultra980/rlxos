@@ -5,6 +5,7 @@ depends:
 - components/d-spy.bst
 - components/gnome-builder.bst
 - components/sysprof-app.bst
+- components/srclang.bst
 - freedesktop-sdk.bst:components/autoconf-archive.bst
 - freedesktop-sdk.bst:components/autoconf.bst
 - freedesktop-sdk.bst:components/automake.bst
