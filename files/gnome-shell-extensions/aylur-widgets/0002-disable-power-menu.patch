@@ -1,0 +1,25 @@
+From 9a37bd26047b252923a376c906f18d72e9466143 Mon Sep 17 00:00:00 2001
+From: "manjeet.singh1" <manjeet.singh@bobble.ai>
+Date: Sun, 5 Feb 2023 13:52:24 +0530
+Subject: [PATCH 2/2] disable power menu
+
+---
+ .../org.gnome.shell.extensions.aylurs-widgets.gschema.xml       | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/widgets@aylur/schemas/org.gnome.shell.extensions.aylurs-widgets.gschema.xml b/widgets@aylur/schemas/org.gnome.shell.extensions.aylurs-widgets.gschema.xml
+index ef7317c..ad2a855 100644
+--- a/widgets@aylur/schemas/org.gnome.shell.extensions.aylurs-widgets.gschema.xml
++++ b/widgets@aylur/schemas/org.gnome.shell.extensions.aylurs-widgets.gschema.xml
+@@ -9,7 +9,7 @@
+     <key name="dash-board" type="b">		        <default>false</default></key>
+     <key name="date-menu-tweaks" type="b">			<default>true</default></key>
+     <key name="media-player" type="b">			    <default>true</default></key>
+-    <key name="power-menu" type="b">			      <default>true</default></key>
++    <key name="power-menu" type="b">			      <default>false</default></key>
+     <key name="workspace-indicator" type="b">		<default>true</default></key>
+     <key name="notification-indicator" type="b"><default>true</default></key>
+     <key name="background-clock" type="b">			<default>true</default></key>
+-- 
+2.38.1
+

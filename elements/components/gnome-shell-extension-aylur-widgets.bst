@@ -19,3 +19,6 @@ sources:
   ref: 60e66a7d801aa238c64165e4d28108e793fdba98
 - kind: patch
   path: files/gnome-shell-extensions/aylur-widgets/0001-rlxos-default-configurations.patch
+
+- kind: patch
+  path: files/gnome-shell-extensions/aylur-widgets/0002-disable-power-menu.patch
