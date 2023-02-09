@@ -34,7 +34,7 @@
     "responses": {
         "greeting": {
             "Plugin": "direct",
-            "Data": "Hey their,how are you,what are you doing"
+            "Data": "Hey there,how are you,what are you doing"
         },
         "weather": {
             "Plugin": "api",
